@@ -198,6 +198,8 @@ h3 {
       .price {
         margin: 10px
       }
+
+
   }
 
 
@@ -226,13 +228,13 @@ h3 {
   }
 
   .small-business, .Personal, .enterprise {
-    width: 31.33%;
+    width: 31.9%;
     float: left;
     margin: 0 5px;
   }
 
   .price h1 {
-    font-size: 2.1vh;
+    font-size: 2vh;
     letter-spacing: 2.7px;
     font-weight: normal;
   }
