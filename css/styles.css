@@ -33,7 +33,7 @@ overflow: hidden;
 
 .picture {
   margin: 0 auto;
-  background: url(../images/new-tree.jpeg);
+  background: url("../images/new-tree.jpeg");
   color: white;
   text-align: center;
 }
@@ -179,7 +179,6 @@ h3 {
   {
     .picture {
       margin: 0 auto;
-      background: url(../images/trees.jpeg);
       color: white;
       text-align: center;
     }
@@ -206,7 +205,6 @@ h3 {
 @media (min-width: 768px) and (max-width: 978px){
   .picture {
     margin: 0 auto;
-    background: url(../images/trees.jpeg);
     color: white;
     text-align: center;
   }
@@ -264,7 +262,6 @@ h3 {
 @media (min-width: 979px){
   .picture {
     margin: 0 auto;
-    background: url(../images/trees.jpeg);
     color: white;
     text-align: center;
   }
