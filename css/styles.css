@@ -1,0 +1,166 @@
+.header {
+height: 20px;
+overflow: hidden;
+}
+
+.logo {
+  display: inline-block;
+  width: 100px;
+  margin: 5px 10px;
+  color: grey;
+}
+
+.menu {
+  display: inline-block;
+}
+
+.menu ul {
+  padding: 0;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu a {
+  color: grey;
+  text-decoration: none;
+  padding: 5px 15px;
+}
+
+.picture {
+  margin: 0 auto;
+  background: url(../images/trees.jpeg);
+  color: white;
+}
+
+.picture h1 {
+  text-align: center;
+  padding: 15% 22%;
+  font-size: 26px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.green {
+  background-color: #4C9259;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 100;
+  margin: 40px auto 0;
+  padding: 10px;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 3vh;
+  margin: 0;
+}
+
+h2 {
+  font-weight: 100;
+  font-size:16vh;
+  margin: 0;
+}
+
+h3 {
+  color: #9CC2A1;
+  font-weight: 100;
+  font-size: 2.5vh;
+  margin: 0;
+}
+
+.price ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  text-align: center;
+  margin: 0;
+}
+
+.price li {
+  background: #F7F7F7;
+  border: 1px solid #EDEDED;
+  padding: 10px;
+
+}
+
+.price a {
+  text-decoration: none;
+  color: #59676C;
+  padding: 10px;
+}
+
+.cta {
+  padding: 5%;
+  text-align: center;
+  border: 1px solid #EDEDED;
+}
+
+.cta a {
+  border: 1px solid #EDEDED;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 20px;
+  margin: 10px;
+
+}
+
+.blue {
+  background: #2A4A81;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 100;
+  margin: 40px auto 0;
+  padding: 10px;
+}
+
+.blue h3 {
+  color: #91A1BD;
+}
+
+.black {
+  background: black;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 100;
+  margin: 40px auto 0;
+  padding: 10px;
+}
+
+.black h3 {
+  color: #868686;
+}
+
+.feature {
+  margin: 10%;
+}
+
+.feature h2 {
+  font-size: 3vh;
+  font-weight: normal;
+  text-transform: uppercase;
+  width: 70%;
+}
+
+.feature p {
+  font-size: 2.3vh;
+  color: #6D7A7E;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+.footer {
+  background: black;
+  color: #787878;
+  padding: 5%;
+  text-align: center;
+}
+
+.footer a {
+  color: white;
+  font-weight: 100;
+}
