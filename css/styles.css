@@ -1,12 +1,10 @@
 .header {
 height: 10px;
-overflow: hidden;
 }
 
 .logo {
   display: inline-block;
   font-size: 2.5vh;
-  width: 100px;
   margin: 0 10px;
   color: grey;
 }
@@ -36,32 +34,45 @@ overflow: hidden;
   background: url("../images/new-tree.jpeg");
   color: white;
   text-align: center;
+  background-size: cover;
 }
 
 .picture h1 {
   display: inline-block;
-  height: 200px;
-  width: 250px;
+  height: 190px;
+  width: 300px;
   font-size: 26px;
   font-weight: 400;
+  text-shadow: 1px 1px 1px #000;
   position: relative;
   top: 60px;
 
 }
 
-.green {
-  background-color: #4C9259;
+.price {
+  margin: 0 10px;
+}
+
+.plan {
   color: white;
-  text-transform: uppercase;
   text-align: center;
+}
+
+.green, .blue, .black {
+  text-transform: uppercase;
   font-weight: 100;
   margin: 40px auto 0;
-  padding: 40px;
+  padding: 30px;
+}
+
+.green {
+  background-color: #4C9259;
 }
 
 h1 {
   font-weight: 100;
   font-size: 3vh;
+  letter-spacing: 3px;
   margin: 0;
 }
 
@@ -74,7 +85,8 @@ h2 {
 h3 {
   color: #9CC2A1;
   font-weight: 100;
-  font-size: 2.5vh;
+  font-size: 2.7vh;
+  font-weight: normal;
   margin: 0;
 }
 
@@ -88,9 +100,9 @@ h3 {
 
 .price li {
   background: #F7F7F7;
-  border: 1px solid #EDEDED;
+  border: 1px solid #dedede;
   color: #59676C;
-  padding: 10px;
+  padding: 11px;
 
 }
 
@@ -101,15 +113,16 @@ h3 {
 }
 
 .cta {
-  padding: 5%;
+  padding: 8%;
   text-align: center;
-  border: 1px solid #EDEDED;
+  border: 1px solid #dedede;
 }
 
 .cta a {
-  border: 1px solid #EDEDED;
+  color: #3A3A3A;
+  border: 1px solid #dedede;
   font-weight: bold;
-  padding: 5px 10px;
+  padding: 8px 20px;
   border-radius: 20px;
   margin: 10px;
 
@@ -117,12 +130,6 @@ h3 {
 
 .blue {
   background: #2A4A81;
-  color: white;
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: 100;
-  margin: 40px auto 0;
-  padding: 40px;
 }
 
 .blue h3 {
@@ -131,12 +138,6 @@ h3 {
 
 .black {
   background: black;
-  color: white;
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: 100;
-  margin: 40px auto 0;
-  padding: 40px;
 }
 
 .black h3 {
@@ -151,7 +152,8 @@ h3 {
   font-size: 3vh;
   font-weight: normal;
   text-transform: uppercase;
-  width: 70%;
+  letter-spacing: 3px;
+  width: 90%;
 }
 
 .feature p {
@@ -178,41 +180,22 @@ h3 {
 
 @media (min-width: 479px) and (max-width: 767px)
   {
+
     .picture {
-      margin: 0 auto;
-      color: white;
-      text-align: center;
+      padding: 130px 0 170px;
     }
 
     .picture h1 {
-      display: inline-block;
-      height: 200px;
-      width: 380px;
-      font-size: 7vh;
-      font-weight: 400;
-      padding: 80px;
-      position: relative;
-      top: 30px;
-      }
-
-      .price {
-        margin: 10px
+      width: 600px;
+      font-size: 8.7vh;
       }
   }
 
 @media (min-width: 768px) and (max-width: 978px){
-  .picture {
-    margin: 0 auto;
-    color: white;
-    text-align: center;
-  }
 
   .picture h1 {
-    display: inline-block;
-    height: 200px;
-    width: 490px;
+    width: 650px;
     font-size: 9vh;
-    font-weight: 400;
     padding: 120px;
     position: relative;
     top: 30px;
@@ -223,22 +206,39 @@ h3 {
     margin: 0 20px;
   }
 
-  .small-business, .Personal, .enterprise {
-    width: 31.9%;
+  .plan {
+    width: 31.4%;
     float: left;
-    margin: 0 5px;
   }
 
+.green, .blue, .black {
+  padding: 40px 0;
+}
+
+.small-business{
+  margin: 0 20px;
+}
+
   .price h1 {
-    font-size: 2vh;
-    letter-spacing: 2.7px;
+    font-size: 2.7vh;
+    letter-spacing: 2.5px;
     font-weight: normal;
   }
 
   .price h3 {
-    font-size: 2.7vh;
+    font-size: 2.9vh;
     font-weight: normal;
   }
+
+
+    .plan li {
+      font-size: 2.8vh;
+      padding: 14px;
+    }
+
+    .cta {
+      padding: 34px;
+    }
 
   .features {
     clear: both;
@@ -252,55 +252,59 @@ h3 {
     float: left;
   }
 
+  .feature h2 {
+    font-size: 3.5vh;
+  }
+
+  .feature p {
+    font-size: 2.7vh;
+  }
+
   .footer {
-    padding: 3%;
+    padding: 4%;
   }
 }
 
 @media (min-width: 979px){
-  .picture {
-    margin: 0 auto;
-    color: white;
-    text-align: center;
-  }
 
   .picture h1 {
-    display: inline-block;
-    height: 150px;
-    width: 400px;
-    font-size: 6vh;
+    width: 600px;
+    font-size: 7vh;
     font-weight: 400;
-    padding: 80px;
+    padding: 100px;
     position: relative;
     top: 30px;
   }
 
   .price {
     overflow: hidden;
-    margin: 0 140px;
+    margin: 10px 140px;
   }
 
-  .small-business, .Personal, .enterprise {
-    margin: 5px;
+  .small-business, .personal, .enterprise {
     width: 31.33%;
     float: left;
   }
 
+  .small-business {
+    margin: 0 20px;
+  }
+
   .blue, .green, .black {
-    padding: 20px;
+    padding: 30px 0;
   }
 
     h1 {
-      font-size: 2vh;
+      font-size: 2.8vh;
       letter-spacing: 3px;
     }
 
     h2 {
-      font-size:12vh;
+      font-size:15vh;
     }
 
     h3 {
-      font-size: 2.5vh;
+      font-size: 3vh;
     }
 
     .price a {
@@ -314,10 +318,11 @@ h3 {
   }
 
   .feature {
-    margin: 0 10px 0;
+    margin: 0 20px 0 0;
     width: 47%;
     float: left;
   }
+
 
   .footer {
     padding: 2%;
