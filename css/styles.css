@@ -89,6 +89,7 @@ h3 {
 .price li {
   background: #F7F7F7;
   border: 1px solid #EDEDED;
+  color: #59676C;
   padding: 10px;
 
 }
@@ -197,10 +198,7 @@ h3 {
       .price {
         margin: 10px
       }
-
-
   }
-
 
 @media (min-width: 768px) and (max-width: 978px){
   .picture {
